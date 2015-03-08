@@ -5,7 +5,7 @@
 @stop
 
 @section('welcome')
-Willkommen auf Blah...
+Sie haben ein Problem?
 @stop
 
 @section('content')

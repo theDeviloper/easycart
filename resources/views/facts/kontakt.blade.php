@@ -5,7 +5,9 @@
 @stop
 
 @section('welcome')
-Sie haben ein Problem?
+Sie haben ein Problem mit der Darstellung oder Nutzung der Webseite? 
+Sie vermissen eine Funktion, oder möchten aus anderen Gründen Kontakt aufnehmen?
+Dann sind Sie hier richtig!
 @stop
 
 @section('content')

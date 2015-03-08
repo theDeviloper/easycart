@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Projekt-X</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Fonts -->
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap -->
+  <link href="css/app.css" rel="stylesheet">
+  <style type="text/css">
+    .cookiebar {
+      padding: 5px;
+      background-color: rgb(224, 50, 50);
+      border-bottom: 1px solid black;
+    }    
+    h6 {
+      font-size: 70px;
+    }
+  </style>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+  <!--
+  <div class="container-full cookiebar">
+    <div class="row">
+      <div class="col-lg-10">
+        <p> <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Um die Webseite in vollem Umfang zu nutzen, werden Cookies benötigt. Mit der benutzung der Webseite erklären Sie sich mit der setzung von Cokkies einverstanden</p>
+      </div>
+      <div class="col-lg-2">
+        <p class="text-right"><span class="badge">Ok</span> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></p>
+      </div>
+    </div>
+  </div>
+-->
+	<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Navigation ein-/ausblenden</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="">Projekt-X</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="">Start</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Listen<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Liste-Übersicht</a></li>
+              <li><a href="#">Neue Liste</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Profil<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Eigene Daten</a></li>
+              <li><a href="#">Haushaltsplan</a></li>                            
+              <li class="divider"></li>
+              <li><a href="#">Einstellungen</a></li>
+            </ul>
+          </li>
+          <li><a href="kontakt">Kontakt</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Login</a></li> 
+          <li><a>|</a></li> 
+          <li><a href="#">Registrieren</a></li> 
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+	<div class="container-full" style='background-image: url("images/cart.jpg");'>
+		<div class="container marketing">
+			@yield('headline')
+		</div>
+	</div>
+	<hr>
+	<div class="container">
+		@yield('welcome')
+	</div>
+	<hr>
+	<div class="container">
+		@yield('content')
+	</div>
+  <hr>
+	<footer class="footer">
+    <div class="container">
+      <p class="text-muted">CopyRight Über Impressum Kontakt.</p>
+    </div>
+  </footer>
+	<!-- Scripts -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

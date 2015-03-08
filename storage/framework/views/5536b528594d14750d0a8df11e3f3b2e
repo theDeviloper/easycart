@@ -1,0 +1,54 @@
+<?php $__env->startSection('headline'); ?>
+<h1>Kontakt</h1>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('welcome'); ?>
+Willkommen auf Blah...
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+	<div class="container marketing">
+      <!-- Drei Spalten Text unter dem Karussell -->
+      <div class="row">
+		<form action="kontakt" method="post" id="contact_form" novalidate="">
+          <div class="col-sm-6">
+          <label>Vorname*</label>
+          <input type="text" name="vorname" id="vorname" class="form-control" value="">
+          </div>
+          <div class="col-sm-6">
+          <label>Vorname*</label>
+          <input type="text" name="vorname" id="vorname" class="form-control" value="">
+          </div>
+          <div class="col-sm-6">
+          <label>Vorname*</label>
+          <input type="text" name="vorname" id="vorname" class="form-control" value="">
+          </div>
+          <div class="col-sm-6">
+          <label>Vorname*</label>
+          <input type="text" name="vorname" id="vorname" class="form-control" value="">
+          </div>
+          <div class="col-sm-6">
+          <label>Vorname*</label>
+          <input type="text" name="vorname" id="vorname" class="form-control" value="">
+          </div>
+          <div class="col-sm-6">
+          <label>Vorname*</label>
+          <input type="text" name="vorname" id="vorname" class="form-control" value="">
+          </div>
+          <div class="col-sm-6">
+          <label>Vorname*</label>
+          <input type="text" name="vorname" id="vorname" class="form-control" value="">
+          </div>
+          <div class="col-sm-6">
+          <label>Vorname*</label>
+          <input type="text" name="vorname" id="vorname" class="form-control" value="">
+          </div>
+          <div class="col-sm-6">
+          <label>Vorname*</label>
+          <input type="text" name="vorname" id="vorname" class="form-control" value="">
+          </div>
+        </form>
+	  </div><!-- /.row -->
+    </div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
